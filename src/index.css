@@ -1,0 +1,222 @@
+
+.navbar
+{
+  height: 70px;
+  width: 100%;
+  margin: 0px;
+  background-color: royalblue;
+  float: right;
+}
+#headlist
+{
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-evenly;
+}
+#searchinput
+{
+  height: 35px;
+  width: 600px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: large;
+  text-decoration: dashed;
+}
+#headlist button
+{
+  height: 35px;
+  width: 150px;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: x-large;
+  background: none;
+  border: 0px;
+}
+#headlist a
+{
+  margin-top: 5px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: x-large;
+  color: white;
+  font-display: swap;
+  text-decoration-style: solid;
+}
+#navbar2
+{
+  padding-top: 15px;
+  height: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: 0px 0px 10px 0px rgb(102, 101, 101);
+}
+#navbar2 a
+{
+  display: grid;
+}
+#navbar2 a img:hover
+{
+  transition: all;
+  transform: scale(1.2);
+}
+#navbar2 small
+{
+  font-size: medium;
+  font-weight: 600;
+  text-align: center;
+}
+.homemaindiv
+{
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  justify-content: space-evenly;
+}
+.homediv
+{
+  height: 450px;
+  width: 260px;
+  border: 1px solid black;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 15px 20px 0px rgb(36, 49, 53);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 40px;
+  background-color: lightyellow;
+} 
+.homediv img
+{
+  height: 270px;
+  width: 220px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px rgb(147, 147, 172);
+}
+.homediv big
+{
+  font-size: x-large;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#all
+{
+  color: tomato;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#slidingimg img
+{
+  width: 100%;
+  height: 250px;
+}
+
+/* add  products page  */
+
+#adminheader
+{
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 600;
+}
+#adminform
+{
+  margin: auto;
+  background-color: rgb(245, 233, 196);
+  border: 1px solid black;
+  height: 600px;
+  width: 50%;
+  display: grid;
+  padding: 30px;
+  grid-template-columns: 230px 420px;
+  justify-content: space-between;
+  font-size: large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#adminform input
+{
+ height: 26px;
+ border-radius: 10px;
+}
+#adminform input[type="radio"]
+{
+  height: 30px;
+  width: 30px;
+  margin-left: 30px;
+}
+#adminform input[type="checkbox"]
+{
+  height: 30px;
+  width: 30px;
+  margin-left: 30px;
+  text-align: center;
+}
+#adminform div
+{
+  display: flex;
+  padding: 10px;
+}
+#adminform div>label
+{
+  text-align: center;
+  margin-left: 15px;
+  margin-top: 8px;
+  font-size: larger;
+}
+#adminform button
+{
+  background-color: royalblue;
+  width: 300px;
+  border-radius: 30px;
+}
+.loginpage
+{
+  height: 500px;
+  background-color: rgba(220, 248, 248, 0.301);
+  border: 2px solid black;
+  border-style: hidden;
+  width: 90%;
+  margin: 65px;
+  border-radius: 100px 200px;
+  box-shadow: 20px 20px 100px 20px rgb(73, 78, 82);
+}
+.loginpage button
+{
+  margin-left: 100px;
+  margin-top: 200px;
+  margin-right: 120px;
+  height: 80px;
+  width: 300px;
+  background-color: rgba(248, 221, 210, 0.541);
+  border-radius: 50px;
+  font-size: 40px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-shadow: 3px 3px rgb(235, 186, 141);
+  text-transform: capitalize;
+}
+.producdetails
+{
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 300px 800px;
+}
+#detailcartbutton
+{
+  height: 50px;
+  width: 200px;
+  background-color: rgb(248, 248, 83);
+  border-radius: 30px;
+  box-shadow: 5px 5px 15px rgb(51, 51, 56);
+}
+#addnewprod
+{
+  margin-top: 100px;
+  height: 50px;
+  width: 200px;
+  background-color: rgb(107, 125, 182);
+  border: 2px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 20px rgb(73, 63, 63);
+  color: rgb(253, 255, 255);
+  font-size: larger;
+  font-weight: 500;
+  font-family: sans-serif;
+}
